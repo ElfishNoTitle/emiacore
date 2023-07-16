@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "emiacore",
+  "version": "${version}",
+  "name": "emiacore",
+  "description": "A Fabric Mod that is being used by PeaceM. ORG",
+  "authors": [
+    "NoTitle from PeaceM. ORG"
+  ],
+  "contact": {
+    "website": "no website",
+    "repo": "https://github.com/elfis/emiacore"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.peace.notitle.emiacore.client.EmiaCoreClient"
+    ],
+    "main": [
+      "org.peace.notitle.emiacore.EmiaCore"
+    ],
+    "server": [
+      "org.peace.notitle.emiacore.server.EmiaCoreServer"
+    ]
+  },
+  "mixins": [
+    "emiacore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
