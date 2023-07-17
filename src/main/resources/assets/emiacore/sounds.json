@@ -1,0 +1,22 @@
+{
+  "emia_open_inventory":{
+    "sounds": [
+      "emiacore:emia_open_inventory"
+    ]
+  },
+  "emia_close_inventory":{
+    "sounds": [
+      "emiacore:emia_close_inventory"
+    ]
+  },
+  "emia_open_mobilephone":{
+    "sounds": [
+      "emiacore:emia_open_mobilephone"
+    ]
+  },
+  "emia_close_mobilephone":{
+    "sounds": [
+      "emiacore:emia_close_mobilephone"
+    ]
+  }
+}
